@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  position: relative;
+  width: 94%;
+  margin: 4em auto;
+}
+/* Side bar */
+.side-bar {
+  position: fixed;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  border-right: 1px solid #00000043;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6em;
+  width: 100%;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+}
+
+.profile-name {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 27.43px;
+  padding: 2em 0;
+  width: 100%;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.nav-links .nav-link {
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 1em 2em;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+  color: #727171;
+  
+}
+
+a {
+  text-decoration: none;
+  color: #727171;
+}
+
+.nav-link.active {
+  background-color: #10844d;
+  color: #fff;
+  border-top-left-radius: 32px;
+  border-bottom-left-radius: 32px;
+}
+
+/* app */
+.app-container {
+  margin-left: 17em;
+}
+
+/* Home Page */
+/* Hero Section */
+
+.hero-section {
+  position: relative;
+  margin-top: 6em;
+  background-color: #10844d;
+  border-radius: 20px;
+  height: 351px;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 2em;
+}
+
+.hero-images {
+  position: absolute;
+  right: 0;
+  top: -4em;
+}
+
+.book-grid {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3em;
+}
+
+.grid-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.view-all-btn {
+  border: 0;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+.books {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.books a {
+  color: #000;
+}
+
+.book-title {
+  font-size: 16px;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 168px;
+  color: #000;
+}
+
+.book-author {
+  font-size: 13px;
+  color: #4b4b4b;
+}
+
+.category-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4em;
+  padding-top: 3em;
+}
+
+.category {
+  width: 203px;
+  height: 182px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #10844d;
+  padding: 2em;
+}
+
+/* Login page */
+.login-page, .signup-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.login-page h1,
+.signup-page h1{
+  font-weight: 700;
+  font-size: 32px;
+  padding-bottom: 1em;
+}
+.login-form{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.form-col{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+input{
+  width: 100%;
+  padding: 0 1em;
+  border-radius: 10px;
+  border: solid 1px;
+  margin-top: 10px;
+  color: #8E8E8E;
+  height: 50px;
+}
+.primary-btn{
+  background-color: #10844D;
+  color: #fff;
+  width: 100%;
+  border: 0;
+  border-radius: 10px;
+  height: 50px;
+  cursor: pointer;
+}
+label{
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+.footer{
+  margin-top: 1em;
+  font-size: 14px;
+  padding-top: 1em;
+  text-align: center;
+}
+
+.resend {
+  padding: 1em;
+}
+
+.download {
+  background-color: #10844D;
+  width: 292px;
+  border: 0;
+  padding: 1em;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-thumbnail {
+  width: 287px;
+  height: 384px;
+}
+
+
+.book-col {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+
+
+.book-col-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
